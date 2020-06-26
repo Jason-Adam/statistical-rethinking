@@ -6,3 +6,6 @@ globe_qa <- quap(alist(
 ),
 data = list(W = 6, L = 3)
 )
+
+# display summary of quadratic approximation
+precis(globe_qa)
